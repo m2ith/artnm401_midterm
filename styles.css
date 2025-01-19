@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dotgothic16-regular {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+body {
+    font-family: "DotGothic16", sans-serif;
+    color: black;
+    width: 800px;
+    margin: auto;
+    align-content: center;
+}
+
+body h1 {
+    padding-top: 40px;
+}
+
+div {
+    padding-top: 30px;
+    display: flex;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+
+body p img {
+    flex: 2;
+}
+
+body img {
+    padding-right: 25px;
+    flex: 1;
+}
+
+img {
+    display: block;
+}
+
+nav {
+    margin-top: 110px;
+    padding-left: 20px;
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: block;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #d3212a;
+}
+
+a:visited {
+    color: inherit;
+  }
